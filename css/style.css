@@ -1,0 +1,284 @@
+/* Default css */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+
+
+/* 
+Main Css */
+
+.header-top-container{
+ display: flex;  
+ background-color: rgb(175, 26, 26); 
+}
+.link-part{
+    width: 60%;
+}
+.link-part ul{
+    list-style-type: none;
+}
+.link-part ul li{
+    display: inline-block;
+    padding: 5px;
+    border-right:1px solid white ;
+}
+.link-part ul li a{
+    font-size: 20px;
+    color: white;
+}
+
+.search-part{
+ padding: 10px;
+ text-align: right;
+ width: 40%;
+ margin: auto 0;
+ position: relative;
+}
+.search-part input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+.search-part img{
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    margin: auto 0;
+    top: 15px;
+}
+
+/* Header part css */
+
+.header-container{
+    display: flex;
+    background-color: #fff;
+    width: 96%;
+    margin: auto;
+}
+.logo-part{
+ width: 30%;
+ padding:5px 10px;
+}
+.social-icon-part{
+    width: 70%;
+    text-align: right;
+}
+.social-icon-part ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social-icon-part ul li a:hover{
+    border-bottom: 2px solid rgb(9, 142, 146);
+}
+.social-icon-part ul li a img{
+    width: 25px;
+    padding: 10px;
+    
+   
+}
+
+/* Nav css */
+.nav-container{
+    width: 96%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav-container ul li{
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+.nav-container ul li a{
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.nav-container ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+/* header css */
+
+.banner-container{
+    width: 96%;
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    align-items: center;
+}
+.img-part{
+    width: 35%;
+}
+.banner-datils-part{
+    padding: 5px 10px;
+    text-align: center;
+    width: 65%;
+}
+.banner-datils-part h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.banner-datils-part p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.banner-datils-part a{
+    font-size: 18px;
+    color: red;
+}
+/* Output section css */
+
+.output-container{
+    width: 96%;
+    display: flex;
+    background-color: rgb(201, 198, 198);
+    margin: auto;
+    text-align: center;
+}
+.output-container a{
+    font-size: 18px;
+    color: red;
+}
+
+.about-part{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.about-part p{
+    text-align: justify;
+    font-size: 17px;
+    color: rgb(26, 28, 29);
+}
+.service-part-container{
+    width: 40%;
+    padding: 10px;
+}
+.service{
+   display: flex;
+}
+
+.service img{
+  padding: 5px;  
+}
+
+.service p{
+  padding: 0 10px; 
+  text-align: justify;
+  font-size: 17px; 
+}
+
+
+.output-part{
+    width: 30%;
+    padding: 10px;
+}
+
+/* Contact Section css */
+
+.contact-section-container{
+    width: 96%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.tweet-part{
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.tweet-part h2{
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.tweet-part p{
+    text-align: justify;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.tweet-part span{
+    color: red;
+}
+
+.link-part2{
+    width: 25%;
+    padding: 0px 10px;
+}
+.link-part2 p{
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+.blog-part{
+    width: 25%;
+    padding: 0px 10px;
+}
+.blog-part P{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.blog-part a{
+    color: red
+}
+
+.from-part{
+    width: 25%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.from-part input,textarea{
+    display: block;
+    padding: 4px 8px;
+    margin: 5px auto;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(12, 121, 136);
+
+}
+
+/* footer css */
+
+footer{
+    background-color: rgb(214, 213, 213);
+}
+footer :first-child{
+    float: left;
+    padding: 0 5px;
+}
+footer :nth-child(2){
+    float: right;
+    padding: 0 5px;
+}
